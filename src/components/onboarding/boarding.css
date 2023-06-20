@@ -1,0 +1,76 @@
+.framework-card {
+  padding: 0;
+}
+
+.framework-media img {
+  width: 100%;
+}
+
+.onboarding-content-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 38px auto;
+}
+
+.framework-card button.inte-btn {
+  border-radius: 0;
+  border-left: navajowhite;
+  border-right: none;
+  border-bottom: 0;
+}
+
+.framework-card button.inte-btn-disable {
+  color: #027a48;
+  opacity: 1;
+}
+
+.framework-card button.inte-btn-disable:hover {
+  color: #027a48 !important;
+}
+
+.framework-card button.inte-btn:hover {
+  background-color: transparent;
+  color: rgba(65, 59, 188, 1);
+}
+
+.framework-card.connect svg {
+  filter: grayscale(1);
+}
+
+.custtom_tooltip button.inte-btn {
+  border-bottom: 1px dashed rgba(59, 66, 79, 1);
+  color: rgba(28, 36, 51, 1);
+}
+
+.custtom_tooltip button.inte-btn:hover {
+  text-decoration: none;
+}
+
+.custtom_tooltip button.inte-btn span {
+  color: rgba(28, 36, 51, 1);
+}
+
+.custtom_tooltip button.inte-btn span em {
+  color: red;
+  font-style: normal;
+}
+
+ol.inte__List {
+  padding-left: 2rem;
+}
+
+.framework-media {
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-serial {
+  width: 20px;
+  aspect-ratio: 1;
+  background-color: rgb(37, 154, 105);
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}

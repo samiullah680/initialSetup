@@ -1,0 +1,36 @@
+.product-edit--section {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.first-child {
+    max-width: 100%;
+    width: 100%;
+}
+
+.inte-Tabs--vertical .inte-tabsWrap--Items {
+    flex: 0 0 26rem;
+}
+.product-edit--section .inte-tabsWrap--Content {
+    overflow-y: hidden;
+}
+.ced-account__icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #D7D9DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+.ced-account__icon span {
+    background: linear-gradient(135deg, #A92137 14.98%, #CE0E2D 91.54%);
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 600;
+}

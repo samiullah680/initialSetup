@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="https://dev.apps.cedcommerce.com/marketplace-integration/static/modules/etsy/assets/images/favicon.ico">
+    <meta name="theme-color" content="#000000" />
+    <title>Global Frontend</title>
+    <script>
+      Date.prototype.addHours= function(h){
+          this.setHours(this.getHours()+h);
+          return this;
+      }
+      Array.prototype.uniqueArray = function (array = []) {
+      let len = this.length;
+      for (let i = 0; i < this.length; i++) {
+        if (this.indexOf(this[i]) === i) {
+          this.push(this[i])
+        }
+      }
+
+      this.splice(0, len)
+    }
+    </script>
+  </head>
+  <body class="inte__Sidebar--expanded">
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root">
+      <!-- This div is where our app will run -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+.thumbnails {
+    border: 0.2rem dashed var(--inte-G50);
+    padding: 3.2rem 1.2rem;
+    border-radius: 6px;
+    max-width: 178px;
+    max-height: 188px;
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnails img {
+    border-radius: 5px;
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
+
+[data-upload='true'] {
+    cursor: pointer;
+}
+
+[data-upload='false'] {
+    position: relative;
+    transition: 0.5s all;
+}
+
+[data-upload='false']:hover[data-upload='false']::after {
+    content: "";
+    transition: 0.5s all;
+    position: absolute;
+    height: calc(100% - 6.4rem);
+    left: 0;
+    transform: translate(1.2rem, 3.2rem);
+    top: 0;
+    border-radius: 5px;
+    width: calc(100% - 2.4rem);
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ced-action__btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 100%;
+    max-width: 85px;
+    display: none;
+}
+[data-upload='false'] svg:nth-child(2) {
+    margin-left: 30px;
+}
+
+[data-upload='false']:hover[data-upload='false'] .ced-action__btn {
+    display: flex !important;
+    cursor: pointer;
+}
+
+hr.horizontal_lines {
+    border: 0.1rem solid rgb(240, 239, 251);
+    margin: 0.8rem;
+    width: calc(100% + 3rem);
+    margin-left: -16px;
+}
+
+.product-edit--section {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.custom-flex {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.first-child {
+    max-width: 100%;
+    width: 100%;
+}
+
+.inte-Tabs--vertical .inte-tabsWrap--Items {
+    flex: 0 0 26rem;
+}
+.product-edit--section .inte-tabsWrap--Content {
+    overflow-y: hidden;
+}
+.product-edit--section .inte-tabsWrap--Items {
+    position: sticky;
+    top: 18rem;
+}
+@media screen and (max-width: 767px) {
+    .product-edit--section .inte-tabsWrap {
+        position: sticky;
+        top: 21rem;
+        z-index: 9;
+        background: var(--inte-G20);
+    }
+}

@@ -1,0 +1,15 @@
+.p-12 {
+    padding: 12px;
+}
+.inte-card__Header .intel-flex--distribute-spaceBetween {
+    gap: 0.8rem;
+}
+.inte-world_break {
+    word-break: break-all;
+}
+.inte--BadgeNarrow .inte--Badge-content span {
+    white-space: nowrap;
+}
+.inte-textwith__link a {
+    vertical-align: text-top;
+}

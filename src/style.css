@@ -1,0 +1,99 @@
+/* comman css */
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+.custom-hr {
+  border: none;
+  height: 1px;
+  background: rgb(215, 217, 219);
+}
+.ced-footer {
+  color: #616771;
+}
+
+.token-expired-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrap-text {
+  word-break: break-all;
+}
+.inte__Accounts-Avatar {
+  display: none;
+}
+/* page header css */
+.inte-PageHeader--Wrapper {
+  border-bottom: 1px solid #d7d9db;
+  padding-bottom: 15px;
+}
+/* border card background */
+.inte-card--bordered {
+  background-color: var(--inte-G0);
+}
+/* header popover css */
+.inte__Topbar {
+  background-color: var(--inte-G0);
+}
+.inte__accountsWrapper .inte__Popover-Wrapper {
+  top: calc(100% + 5px);
+}
+.custom-popover-action .inte-form__checkbox {
+  width: 100%;
+  padding: 0;
+  border-radius: var(--radius-rounded-4);
+  min-height: 3.8rem;
+  justify-content: center;
+  transition: 0.3s all;
+}
+.custom-popover-action .inte-form__checkbox span.inte__checkboxWrap {
+  padding: 0.7rem 1rem;
+  transition: 0.3s all;
+}
+.custom-popover-action
+  .inte-form__checkbox
+  span.inte__checkboxWrap
+  span.inte__checkbox {
+  top: 0.7rem;
+}
+.custom-popover-action .inte-form__checkbox:hover {
+  background-color: var(--inte-G30);
+}
+/* onboarding css */
+.ced-onboarding__wrap .inte__Topbar {
+  padding-left: 3rem;
+}
+/* error page hide */
+.ced-errorpage__hidebutton .inte-btn:empty {
+  display: none;
+}
+.ced-dashboard .inte__plain-btn {
+  text-decoration: underline;
+}
+/* nonetwork page css */
+.ced-nonetwork_page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--inte-G0);
+}
+.ced-nonetwork_page .inte-card.inte-card--default {
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .inte__accountsWrapper {
+    display: none;
+  }
+  .ced-onboarding__wrap .inte__Topbar {
+    padding-left: 15px;
+  }
+}

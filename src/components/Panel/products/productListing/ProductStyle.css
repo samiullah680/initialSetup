@@ -1,0 +1,72 @@
+/* product grid css */
+.ced-filter__wrap {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    border-color: var(--inte-G30);
+}
+.ced-product__grid .ant-table-expanded-row .ant-table {
+    margin: -8px !important;
+    border: 0.1rem solid var(--inte-G30);
+    border-bottom: 0;
+}
+.custom-popover-action button {
+    padding-left: 0;
+    padding-right: 0;
+}
+.ced-product__grid .ant-table-row-expand-icon, 
+.ced-product__grid .ant-table-row-expand-icon::before {
+    background-color: transparent;
+}
+/* product grid header */
+.ced-product__grid .inte-tabsWrapper {
+    position: relative;
+}
+/* .ced-selected__row {
+    position: absolute;
+    z-index: 9;
+    background: #fafafa;
+    width: 100%;
+    padding: 6px 16px;
+    border: 1px solid var(--inte-G30);
+} */
+.ced-selected__row {
+    padding: 12px 16px;
+    background: #fafafa;
+    border: 1px solid var(--inte-G30);
+    border-bottom: 0;
+}
+.ced-selected__all {
+    display: block;
+    text-align: center;
+    margin-left: 40px;
+}
+.ced-selected__all .inte-form__checkbox {
+    vertical-align: middle;
+}
+.custom-popover-action .inte-btn {
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custom-popover-action .inte-btn .inte__text {
+    font-weight: var(--weight-normal);
+}
+.ant-table-expanded-row .ant-table-selection-column {
+    padding-left: 47px !important;
+}
+.ced-pagination__wrap {
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: var(--inte-G30);
+}
+.inte-Filter--Open .inte-select--Fixed {
+    z-index: 999999 !important;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.ced-product__grid .ant-table-cell .inte-btn .inte__text {
+    text-align: left;
+}
