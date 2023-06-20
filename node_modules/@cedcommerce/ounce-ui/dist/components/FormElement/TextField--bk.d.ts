@@ -1,0 +1,32 @@
+import React from "react";
+import "./FormElement.css";
+declare const TextField: ({ name, error, innerPreIcon, innerSufIcon, autocomplete, clearButton, onChange, onFocus, ...props }: TextfieldI) => JSX.Element;
+export interface TextfieldI {
+    innerPreIcon?: React.ReactNode;
+    innerSufIcon?: React.ReactNode;
+    suffix?: string | React.ReactNode;
+    prefix?: string | React.ReactNode;
+    name?: string | React.ReactNode;
+    showHelp?: string;
+    id?: string;
+    value?: string | number;
+    placeHolder?: string;
+    min?: number;
+    max?: number;
+    tabIndex?: number;
+    readOnly?: boolean;
+    clearButton?: boolean;
+    required?: boolean;
+    error?: boolean;
+    loading?: boolean;
+    type?: "text" | "number" | "password" | "tel" | "url" | "email";
+    autocomplete?: "off" | "on";
+    thickness?: "thin" | "";
+    onChange?: (e: string) => void;
+    onEnter?: () => void;
+    onblur?: () => void;
+    onKeyUp?: () => void;
+    onFocus?: () => void;
+    clearFunction?: () => void;
+}
+export default TextField;

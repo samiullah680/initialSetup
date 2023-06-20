@@ -1,0 +1,10 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+declare const _default: ComponentMeta<any>;
+export default _default;
+export declare const Primary: ComponentStory<React.FC<import("./Accordion").AccordionI>>;
+export declare const Boxed_Accordion_with_leftAlign_Icon: any;
+export declare const Boxed_Accordion_with_rightAlign_Icon: any;
+export declare const Bordered_Accordion_with_rightAlign_Icon: any;
+export declare const Bordered_Accordion_with_leftAlign_Icon: any;
+export declare const Bordered_Accordion_without_icon: any;

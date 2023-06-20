@@ -1,0 +1,11 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+declare const _default: ComponentMeta<any>;
+export default _default;
+export declare const Primary: ComponentStory<React.FC<import("./List").ListI>>;
+export declare const Disc: any;
+export declare const Square: any;
+export declare const Circle: any;
+export declare const Decimal: any;
+export declare const Lower_Roman: any;
+export declare const List_with_Image: any;
